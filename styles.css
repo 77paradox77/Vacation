@@ -36,6 +36,7 @@ form {
 }
 
 footer p {
+  margin-top: 300px;
   margin:auto;
   color:white;
   text-align: center;
@@ -55,10 +56,20 @@ img {
   border-radius: 30px;
 }
 .submit {
+  margin-top: 100px;
   margin-bottom: 300px;
 }
 
 .vac1, .vac2, .vac3 {
   text-align: center;
   color:white;
+  padding: 0px 200px 0px 200px;
+  background-color: grey;
+  filter: alpha(opacity=80);
+        opacity: 0.8;
+        z-index: 10000;
+}
+
+.vac1, .vac2, .vac3 {
+  display: none;
 }
