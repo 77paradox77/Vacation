@@ -46,3 +46,7 @@ $("form").submit(function(event) {
   event.preventDefault();
 });
 });
+
+
+
+// I got caught up trouble shooting technical errors a lot today. In the future I hope to add on to this project and make the bottom two questions valid in selecting more vacation destinations. Also I need to review the code above to incorporate accuracy

@@ -15,7 +15,7 @@ likes and interests as well as lifestyle. This web page was created with jQuery 
 * Once it is cloned you may right-click on the index file and open it with any web browser(preferably chrome).
 * If you wish to make changes you can find my HTTP server address in my github page.
 Set your remote repository submissions to this address.
-* If you just want to view site click on the following link:
+* If you just want to view site click on the following link: http://77paradox77.github.io/Vacation/
 
 
 ## Known Bugs
