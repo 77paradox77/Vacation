@@ -20,7 +20,7 @@ Set your remote repository submissions to this address.
 
 ## Known Bugs
 
-The page must be refreshed in order to clear current selection. If not your favorite vacations will be listed.
+Currently no known bugs that should impede user interface or performance.
 
 ## Support and contact details
 

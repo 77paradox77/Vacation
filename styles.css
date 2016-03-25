@@ -73,3 +73,7 @@ img {
 .vac1, .vac2, .vac3, .vac4, .vac5, .vac6 {
   display: none;
 }
+
+h6 {
+  text-align: center;
+}

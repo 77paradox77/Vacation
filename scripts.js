@@ -1,7 +1,10 @@
 $(document).ready(function() {
 
+  $(".fadeout").click(function(){
+      $("h1").fadeOut();
+  });
 
-var submit1;
+var submissions;
 $("form").submit(function(event) {
   $(".vac1").hide();
   $(".vac2").hide();
@@ -27,7 +30,7 @@ $("form").submit(function(event) {
   else if ($("#q2").val() === "0" && $("#q3").val() === "0")  {
     $(".vac4").show();
   }
-  else if ($("#q2").val() === "1" && $("#q3").val() === "1")  {
+  else if ($("#q2").val() === "0" && $("#q3").val() === "1")  {
     $(".vac1").show();
   }
   else if ($("#q2").val() === "1" && $("#q3").val() === "0")  {
