@@ -5,19 +5,60 @@ body {
    width:100%;
    position:relative;
    margin:0;
-   repeat: no-repeat;
+   background-repeat: no-repeat;
+   background-color: black;
  }
 
 h1 {
   text-align: center;
-  font-family: 'Molle', cursive;
-  color:#009999;
-  font-size: 50px;
+  font-family: 'Molle';
+  color:#ff9933;
+  font-size: 80px;
 }
 
-p {
+#instruct {
   text-align: center;
   font-size: 30px;
   font-family:monospace;
   margin-top:150px;
+  margin-bottom: 150px;
+}
+
+label {
+  margin:auto;
+  color:white;
+  text-align: center;
+}
+
+form {
+  margin:auto;
+  text-align: center;
+}
+
+footer p {
+  margin:auto;
+  color:white;
+  text-align: center;
+}
+
+.form-group {
+  padding:0px 200px 0px 200px;
+}
+
+input {
+  text-align: center;
+}
+
+img {
+  width: 300px;
+  margin:auto;
+  border-radius: 30px;
+}
+.submit {
+  margin-bottom: 300px;
+}
+
+.vac1, .vac2, .vac3 {
+  text-align: center;
+  color:white;
 }

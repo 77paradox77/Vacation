@@ -10,32 +10,80 @@
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="styles.css" rel="stylesheet">
+    <link href="scripts.js" rel="javascripts">
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
   </head>
   <body>
-    <h1>Find your Dream Vacation!</h1>
-
+    <!-- intro and header -->
+  <div class="container">
     <div>
-      <p>answer the questions below to discover your dream vacation destination!</p>
+      <h1><strong>Find your <u>Dream Vacation!</u></strong></h1>
+      <div>
+        <p id="instruct">Answer the questions below to discover your dream vacation destination!</p>
+      </div>
     </div>
 
-    <form class="form-group">
-      <label for="q1"
-      <select id="q1">
-        <option>Warm?</option>
-        <option>Cold?</option>
-      </select>
-    </form>
+    <!-- forms and selectors for questions -->
+    <div>
+      <form class="form-group">
+        <label for="q1"><p>Are you a morning person or an night person?</p></label>
+        <select id="q1" class="form-control">
+          <option value="0">Morning</option>
+          <option value="1">Night</option>
+        </select>
+
+        <label for="q2"><p>Do you like warm or cold weather?</p></label>
+        <select id="q2" class="form-control">
+          <option value="0">warm</option>
+          <option value="1">cold</option>
+        </select>
+
+        <label for="q3"><p>What kind of nightlife do you pursue?</p></label>
+        <select id="q3" class="form-control">
+          <option value="0">A quiet dinner with a glass of Red Wine</option>
+          <option value="1"><p>Lots of people and loud music</p></option>
+        </select>
+
+        <label for="q4"><p>What outdoor activities do you enjoy?</p></label>
+        <input id="q4" type="text" class="form-control" placeholder="Your favorite outdoor activity">
+
+        <label for="q5"><p>How many hours a week do you work?</p></label>
+        <input id="q5" type="text" class="form-control" placeholder="Hours per-week">
+
+        <input type="submit" value="SUBMIT TO SEE YOUR VACATION" class="submit btn btn-default">
+      </form>
+    </div>
+  </div>
+
+    <!-- VACATION DESTINATIONS! -->
+    <div class="vacations">
+          <div class="vac1">
+            <h2>French Polynesians</h2>
+              <img src="French.jpg" alt="French Polynesians">
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum.</p>
+          </div>
+          <div class="vac2">
+            <h2>Canadian Rockies</h2>
+              <img src="Rockies.jpg" alt="The Canadian Rockies">
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum.</p>
+          </div>
+          <div class="vac3">
+            <h2>Tokyo Japan</h2>
+              <img src="Tokyo.jpg" alt="corkscrew ride">
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum.</p>
+        </div>
+      </div>
+
+
+    <!-- FOOTER at END OF WEBSITE -->
+    <footer>
+      <p>&copy; 2016 Reed Lambier</p>
+    </footer>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+    <script src="scripts.js"></script>
   </body>
 </html>
