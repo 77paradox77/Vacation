@@ -1,13 +1,19 @@
 $(document).ready(function() {
 
 
-
+var submit1;
 $("form").submit(function(event) {
+  $(".vac1").hide();
+  $(".vac2").hide();
+  $(".vac3").hide();
+  $(".vac4").hide();
+  $(".vac5").hide();
+  $(".vac6").hide();
   if ($("#q1").val() === "1" && $("#q2").val() === "1")  {
-    $(".vac3").show();
+    $(".vac1").show();
   }
   else if ($("#q1").val() === "1" && $("#q2").val() === "1")  {
-    $(".vac3").show();
+    $(".vac4").show();
   }
   else if ($("#q1").val() === "1" && $("#q3").val() === "1")  {
     $(".vac3").show();
@@ -16,22 +22,22 @@ $("form").submit(function(event) {
     $(".vac2").show();
   }
   else if ($("#q1").val() === "0" && $("#q3").val() === "0")  {
-    $(".vac1").show();
+    $(".vac5").show();
   }
   else if ($("#q2").val() === "0" && $("#q3").val() === "0")  {
-    $(".vac2").show();
+    $(".vac4").show();
   }
   else if ($("#q2").val() === "1" && $("#q3").val() === "1")  {
     $(".vac1").show();
   }
   else if ($("#q2").val() === "1" && $("#q3").val() === "0")  {
-    $(".vac3").show();
+    $(".vac6").show();
   }
   else if ($("#q2").val() === "0" && $("#q3").val() === "1")  {
-    $("vac1").show();
+    $("vac2").show();
   }
   else {
-    $(".vacations").hide();
+    $("div.vacations").hide();
   }
 
   event.preventDefault();
